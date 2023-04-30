@@ -1,0 +1,12 @@
+C:\projects\warehouse-app\depot\src\main\java\com\sacidpak\depot\service\IDepotService.java
+C:\projects\warehouse-app\depot\src\main\java\com\sacidpak\depot\dto\DepotDTO.java
+C:\projects\warehouse-app\depot\src\main\java\com\sacidpak\depot\util\DistanceUtil.java
+C:\projects\warehouse-app\depot\src\main\java\com\sacidpak\depot\config\SwaggerConfig.java
+C:\projects\warehouse-app\depot\src\main\java\com\sacidpak\depot\enums\DepotValidation.java
+C:\projects\warehouse-app\depot\src\main\java\com\sacidpak\depot\enums\DepotStatus.java
+C:\projects\warehouse-app\depot\src\main\java\com\sacidpak\depot\repository\IDepotRepository.java
+C:\projects\warehouse-app\depot\src\main\java\com\sacidpak\depot\service\DepotServiceImpl.java
+C:\projects\warehouse-app\depot\src\main\java\com\sacidpak\depot\controller\DepotController.java
+C:\projects\warehouse-app\depot\src\main\java\com\sacidpak\depot\enums\DepotType.java
+C:\projects\warehouse-app\depot\src\main\java\com\sacidpak\depot\DepotApplication.java
+C:\projects\warehouse-app\depot\src\main\java\com\sacidpak\depot\domain\Depot.java
