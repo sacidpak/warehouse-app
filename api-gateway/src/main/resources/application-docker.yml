@@ -7,12 +7,19 @@ spring:
   zipkin:
     base-url: http://zipkin:9411
   cloud:
+    discovery:
+      enabled: true
     gateway:
+      enabled: true
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
       routes:
-        - id: product
-          uri: lb://PRODUCT
+        - id: depot
+          uri: lb://DEPOT
           predicates:
-            - Path=/api/v1/product/**
+            - Path=/api/v1/depot/**
 
 eureka:
   client:
@@ -20,3 +27,6 @@ eureka:
       defaultZone: http://eureka-server:8761/eureka
     fetch-registry: true
     register-with-eureka: true
+  instance:
+    prefer-ip-address: true
+    hostname: api-gateway

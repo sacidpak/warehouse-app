@@ -10,3 +10,8 @@ eureka:
   client:
     fetch-registry: false
     register-with-eureka: false
+  instance:
+    prefer-ip-address: true
+    hostname: eureka-server
+  server:
+    enable-self-preservation: false
